@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+title: "ddg: Differentiable Discontinuous Galerkin Solvers in JAX"
+abstract: "A suite of differentiable nodal discontinuous Galerkin solvers for nonlinear partial differential equations in JAX."
+authors:
+  - family-names: Foucart
+    given-names: Corbin
+version: 0.1.0
+date-released: "2026-07-05"
+license: MIT
+type: software
+url: "https://github.com/CorbinFoucart/ddg"
+repository-code: "https://github.com/CorbinFoucart/ddg"
+keywords:
+  - discontinuous Galerkin
+  - finite element method
+  - differentiable programming
+  - JAX
+  - computational fluid dynamics
+  - Navier-Stokes

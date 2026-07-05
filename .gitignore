@@ -1,0 +1,28 @@
+# Reference upstream (re-clone with: git clone https://github.com/tcew/nodal-dg reference/nodal-dg)
+reference/
+
+# Rendered solver artifacts (MP4s, PNGs, npz arrays, etc.)
+output/
+
+# Large rendered videos kept local (too big for git history)
+results/cpu-videos-20260513/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local agent config + rule files — NEVER commit (local-only by request)
+.claude/
